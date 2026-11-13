@@ -1,0 +1,7 @@
+contract/target/
+node_modules/
+.next/
+.env*
+!.env.example
+.claude/settings.local.json
+MY-TEST-WALLET.txt
