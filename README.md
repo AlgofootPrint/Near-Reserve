@@ -4,7 +4,25 @@
 
 A 3D bank. Four suspects walk up to **Vera**, the bank's AI teller, and each claims to be the same account holder. One is the real client. Three are impostors running cons: leaked data, an insider tip, a sob story, intimidation or prompt injection. Spectators watch, bet testnet NEAR on who's real, and the vault contract settles it on-chain.
 
-Track 06, AI Security & Defense ("Trust, but verify"), built on Track 07 (Give AI a wallet).
+## Screenshots
+
+### The queue: four suspects, one account
+![The queue at Near Reserve]
+<img width="1901" height="911" alt="Screenshot 2026-11-13 193739" src="https://github.com/user-attachments/assets/a1eab523-4227-49c7-a470-117e7450993d" />
+Four people tell Vera, the AI teller, they own the same account. One is real.
+
+### Vera gets fooled, the vault doesn't
+![Vera approves an impostor]
+<img width="1243" height="585" alt="Screenshot 2026-11-14 090910" src="https://github.com/user-attachments/assets/8afa7351-8f07-4d14-adc6-7f16395590b7" />
+Clues drop and Vera approves a request. The counters stay at **0 stolen**, because the contract decides who gets paid.
+
+### Place your bet
+![Placing a bet]
+<img width="1901" height="219" alt="Screenshot 2026-11-13 193945(1)" src="https://github.com/user-attachments/assets/a2a1d254-d4ad-4644-8fed-e04f04b2ca53" />
+Pick the suspect you think is real. A correct pick pays 3.6×.
+
+
+Fits Track 06, AI Security & Defense ("Trust, but verify"), built on Track 07 (Give AI a wallet). and also Games With Real Economies, Agent Economy
 
 ## Why it proves the point
 
